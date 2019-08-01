@@ -44,7 +44,7 @@ loadingPhoto().then(() => {
 }).then(() => {
   return addLocation();
 }).then(() => {
-  savePhoto()
+  return savePhoto();
 }).then(() => {
   console.log("Photo saved");
 });
